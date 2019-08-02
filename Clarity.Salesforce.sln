@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salesforce.Services", "Services\Salesforce.Services.csproj", "{E02B4531-2E7A-4E3A-8767-F45E657AB4FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBF8E343-96D6-4CF3-90B5-378ABC9D46CC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Clarity.Salesforce.snk = Clarity.Salesforce.snk
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salesforce.Entities", "Entities\Salesforce.Entities.csproj", "{192D8AB4-A2F2-4616-BA5B-51151B30A22F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salesforce.Options", "Options\Salesforce.Options.csproj", "{D776F59F-C6DD-4ED7-9394-16F96CE719F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salesforce.Requests", "Requests\Salesforce.Requests.csproj", "{6F28114D-BC6F-4B72-90E1-0336F234456C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salesforce.RequestHandlers", "RequestHandlers\Salesforce.RequestHandlers.csproj", "{CDDA5656-C36C-40AD-A9B1-656F2644843D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E02B4531-2E7A-4E3A-8767-F45E657AB4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02B4531-2E7A-4E3A-8767-F45E657AB4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02B4531-2E7A-4E3A-8767-F45E657AB4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02B4531-2E7A-4E3A-8767-F45E657AB4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192D8AB4-A2F2-4616-BA5B-51151B30A22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192D8AB4-A2F2-4616-BA5B-51151B30A22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192D8AB4-A2F2-4616-BA5B-51151B30A22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192D8AB4-A2F2-4616-BA5B-51151B30A22F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D776F59F-C6DD-4ED7-9394-16F96CE719F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D776F59F-C6DD-4ED7-9394-16F96CE719F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D776F59F-C6DD-4ED7-9394-16F96CE719F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D776F59F-C6DD-4ED7-9394-16F96CE719F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F28114D-BC6F-4B72-90E1-0336F234456C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F28114D-BC6F-4B72-90E1-0336F234456C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F28114D-BC6F-4B72-90E1-0336F234456C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F28114D-BC6F-4B72-90E1-0336F234456C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDA5656-C36C-40AD-A9B1-656F2644843D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDA5656-C36C-40AD-A9B1-656F2644843D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDA5656-C36C-40AD-A9B1-656F2644843D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDA5656-C36C-40AD-A9B1-656F2644843D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5B99D93-1C0E-4268-A2C8-1581835B610E}
+	EndGlobalSection
+EndGlobal
