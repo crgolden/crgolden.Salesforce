@@ -1,4 +1,4 @@
-﻿namespace Clarity.Salesforce
+﻿namespace crgolden.Salesforce
 {
     using MediatR;
 
